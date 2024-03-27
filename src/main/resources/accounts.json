@@ -1,0 +1,27 @@
+[
+  {
+    "username": "abc",
+    "password": "secret_sauce",
+    "message": "Epic sadface: Username and password do not match any user in this service"
+  },
+  {
+    "username": "standard_user",
+    "password": "abc",
+    "message": "Epic sadface: Username and password do not match any user in this service"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "abc",
+    "message": "Epic sadface: Username and password do not match any user in this service"
+  },
+  {
+    "username": "problem_user",
+    "password": "abc",
+    "message": "Epic sadface: Username and password do not match any user in this service"
+  },
+  {
+    "username": "performance_glitch_user",
+    "password": "abc",
+    "message": "Epic sadface: Username and password do not match any user in this service"
+  }
+]

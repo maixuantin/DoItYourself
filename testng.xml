@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+    <parameter name="browserName" value="chrome" />
+    <test name="TestLogin01(Unsuccess)">
+        <classes>
+            <class name="Selenium.VerifyLogin1ReadCSV"/>
+        </classes>
+    </test>
+    <test name="TestLogin02(Success)">
+        <classes>
+            <class name="Selenium.VerifyLogin2"/>
+        </classes>
+    </test>
+    <test name="TestLogin03(Success)">
+        <classes>
+            <class name="Selenium.VerifyLogin3"/>
+        </classes>
+    </test>
+    <test name="TestLogin04(Success)">
+        <classes>
+            <class name="Selenium.VerifyLogin4"/>
+        </classes>
+    </test>
+    <test name="TestLogin05(Success)">
+        <classes>
+            <class name="Selenium.VerifyLogin5"/>
+        </classes>
+    </test>
+</suite>
